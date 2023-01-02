@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'glimmer';
+    src: url('../fonts/glimmer\ of\ light.otf');
+}
+
+@font-face {
+    font-family: 'Northash';
+    src: 
+        url('../fonts/Northash.otf'),
+        url('../fonts/Northash.otf');
+}
+
+body{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 20px 0;
+}
+
+.container{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#img-header{
+    width: 15%;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(58, 56, 32);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Northash';
+}
+
+nav a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+#section-1{
+    padding: 10px;
+    font-family: url(../fonts/glimmer\ of\ light.otf);
+}
+
+.title-2{
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'glimmer';
+}
+
+.text{
+    padding-top: 40px;
+    text-align: justify;
+    color: red;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
