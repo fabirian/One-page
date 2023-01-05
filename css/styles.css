@@ -11,6 +11,12 @@
         url('../fonts/Northash.otf');
 }
 
+@font-face {
+    font-family: 'Helvetical';
+    src: 
+        url('../fonts/HelveticaNowText-Regular.ttf'),
+}
+
 body{
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     padding: 20px 0;
@@ -51,8 +57,11 @@ nav a:hover{
 }
 
 #section-1{
+    display: block;
     padding: 10px;
-    font-family: url(../fonts/glimmer\ of\ light.otf);
+    margin: 20px;
+    border: bisque solid 3px;
+    border-radius: 30px 45px;
 }
 
 .title-2{
@@ -67,6 +76,7 @@ nav a:hover{
     text-align: justify;
     color: red;
     font-size: 20px;
+    font-family: 'Helvetical';
 }
 
 footer{
